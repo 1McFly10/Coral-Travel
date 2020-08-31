@@ -1,0 +1,540 @@
+body{
+  width: 100%;
+  height: 2000px;
+  margin: 0;
+    font-family: Arial;
+    /*height: 2000px;*/
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header-wrapper{
+    width: 100%;
+    height: 85vh;
+    background-image: url('../images/header/slide-4.jpg');
+    background-color: darkgray;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    transition: 1.5s;
+}
+.header-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+.header-menu-wrapper{
+    width: 100%;
+    position: relative;
+}
+.header-menu-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.25);
+    z-index: 2;
+}
+header{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    justify-content: space-between;
+    font-size: .9rem;
+    position: relative;
+    z-index: 9;
+    font-family: Arial;
+}
+.header-menu ul{
+    display: flex;
+}
+.header-menu li{
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 1rem;
+    font-family: Arial;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.header-menu li:hover{
+    color:#0093D0;
+}
+header select{
+    background: none;
+    border: none;
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+header option{
+    background: none;
+    color: black;
+}
+.laguage-select{
+    padding-right: 10px;
+}
+.phone-select{
+    padding-right: 10px;
+}
+.banner-info-wrapper{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+.social-nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.social-nav a{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    transform: rotate(270deg);
+    webkit-transform: rotate(270deg);
+    cursor: pointer;
+}
+.social-nav a:hover{
+    color:#0093D0;
+}
+.banner-info-main-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.banner-info-title{
+    color: white;
+    font-size: 5rem;
+    font-weight: normal;
+    font-family: Arial;
+    text-transform: uppercase;
+
+}
+.banner-button-reservation{
+    font-family: Arial;
+    font-size: 1rem;
+    color: white;
+    width: 170px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #0093D0;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-top: 20px;
+}
+.tourist-services-wrapper{
+    width: 100%;
+    position: relative;
+}
+.tourist-services{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.tourist-services-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+.tourist-services-title-text{
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.slider-wrapper{
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-rows: repeat(3, 1fr);*/
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+}
+
+.tourist-services-slider-buttons{
+    display: flex;
+}
+.tourist-services-slider-buttons img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tourist-services-slider-buttons img:hover{
+    opacity: .4;
+}
+.tourist-services-slider-right-button{
+    transform: rotate(180deg);
+}
+.slider-wrapper img{
+    width: 90%;
+    z-index: 2;
+}
+.bottom-image-slider{
+    margin-top: 40px;
+}
+.left-map{
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 280px;
+}
+.left-plane{
+    width: 380px;
+    position: absolute;
+    left: 0;
+    top: 805px;
+    z-index: 1;
+}
+.right-plane{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    top: 55px;
+    z-index: 1;
+}
+.advantages-wrapper{
+    width: 100%;
+    height: 640px;
+    background-color: #0093D0;
+    margin-top: 250px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+}
+.advantages{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.advantages-list-wrapper{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    color: white;
+    font-family: Arial;
+
+}
+.advantages-title{
+    padding-left: 40px;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.advantages-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.advantages-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.advantages-item img{
+    width: 90px;
+    height: 90px;
+}
+.advantages-image{
+    width: 45%;
+}
+.advantages-image img{
+    width: 100%;
+    height: 730px;
+}
+.about-company-wrapper{
+    width: 100%;
+    position: relative;
+}
+.about-company{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /*position: relative;*/
+}
+.about-company-info{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.about-company-title{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+.about-company-text{
+
+}
+.about-company-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+}
+.about-company-images img{
+    width: 285px;
+    height: 330px;
+}
+.about-company-images div{
+    width: 285px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.about-company-images div:nth-child(2){
+    margin-top: 100px;
+}
+.about-company-images div:nth-child(3){
+    margin-bottom: 200px;
+}
+.about-company-images div:nth-child(4){
+    margin-bottom: 200px;
+}
+.about-company-top-plane{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -320px;
+    left: 400px;
+    z-index: 100;
+}
+.about-company-left-plane{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+.about-company-center-plane{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 650px;
+    left: 290px;
+    /*z-index: 100;*/
+}
+.about-company-right-plane{
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    top: 450px;
+    right: 0;
+}
+.our-team-wrapper{
+    width: 100%;
+    margin-top: 900px;
+    margin-bottom: 100px;
+}
+.our-team{
+    width: 1200px;
+    margin: 0 auto;
+}
+.our-team-title{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.our-team-slider{
+    display: flex;
+    justify-content: flex-end;
+}
+.our-team-slider img{
+    width: 45%;
+}
+.our-team-slider-info{
+    width: 55%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /*flex-direction: column;*/
+}
+.our-team-member-name{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #0093D0;
+    margin-bottom: 20px;
+}
+.our-team-slider-position{
+    font-size: .9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.our-team-slider-text{
+    width: 60%;
+    font-size: 1.2rem;
+}
+.our-team-slider-buttons{
+    display: flex;
+    margin: 20px;
+}
+.our-team-slider-buttons img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.our-team-slider-buttons img:hover{
+    opacity: .4;
+}
+.our-team-slider-buttons{
+    transform: rotate(180deg);
+}
+
+
+@media (max-width: 425px) {
+
+    .popup__content {
+        max-width: 300px;
+    }
+
+    .comment-text-wrapper {
+        width: 300px;
+        height: 400px;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    .free-calculate-form-button {
+        width: 305px;
+    }
+
+    .text-info{
+        width: 310px;
+    }
+    .sales_wrapper{
+        width: 310px;
+    }
+    .sales-cards{
+        width: 310px;
+    }
+    .sales-card{
+        width: 100%;
+    }
+    .guarantee{
+        flex-wrap: wrap;
+    }
+    .left-sidebar-text{
+        width: 100%;
+    }
+    .advantages-wrapper{
+        width: 100%;
+    }
+    .profile-systems-wrapper{
+        width: 310px;
+
+    }
+    .sales-card .logo{
+        width: 155px;
+        height: 47px;
+        position: absolute;
+        top: 50px;
+        left: 25px;
+    }
+    .sales-card .red-tape img{
+        width: 244px;
+        height: 100px;
+        position: absolute;
+        top: 120px;
+        left: 0px;
+    }
+    .sales-card-discount{
+        position: absolute;
+        top: 105px;
+        left: 40px;
+        font-size: 2.6rem;
+        letter-spacing: 2.5px;
+    }
+    .sales-card-title{
+        text-align: left;
+        width: 50%;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        font-size: 1.6rem;
+    }
+
+    .sales-card-button {
+        position: absolute;
+        bottom: 60px;
+        left: 40px;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        border: 1.5px solid white;
+        z-index: 4;
+        cursor: pointer;
+    }
+    .profile-systems-wrapper{
+        margin-top: 50px;
+    }
+    .profile-logos{
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .profile-logos img{
+        width: 60px;
+        height: 30px;
+    }
+    .profile-card{
+        width: 310px;
+        flex-wrap: wrap;
+    }
+    .profile-image-wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .profile-info{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .profile-button{
+        width: 120px;
+        font-size: .75rem;
+    }
+
+}

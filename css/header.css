@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/Montserrat-Regular.woff') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff')
+}
+a {
+    text-decoration: none;
+}
+    .left_sidebar{
+        display: none;
+    }
+
+@media (max-width: 769px) {
+
+    .header-menu{
+        display: none;
+    }
+    .logo{
+        margin-left: 2%;
+    }
+    header{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: normal;
+        z-index: 99;
+        
+    }
+    .header-contact{
+        margin: 0px auto;
+
+    }
+    .header-language{
+        display: none;
+    }
+    .header-language-mobile{
+        display: flex;
+        margin: 0.35em 0.1em;
+        padding: 0.5em 1.2em;
+        outline: none;
+        align-items: center;
+    }
+    .header-language-mobile img{
+        width: 14px;
+        height: 9px;
+        margin-left: 10px;
+    }
+    .back-call {
+        width: 190px;
+        height: 64px;
+        background-color: #CFA166;
+        color: white;
+        text-align: center;
+        line-height: 64px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    /* BURGER MENU */
+    .left_sidebar{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #1C70EE;
+        color: white;
+        height: 100%;
+        left: 0;top: 0;
+        z-index: 99;
+        align-items: center;
+        transition: 0.5s;
+        transform: translateX(100%);
+        /*overflow-x: hidden;*/
+        /*overflow-y: auto;*/
+    }
+    .left_sidebar a{
+        color: white;
+    }
+    /* Demo Buttons Style */
+    .codrops-demos {
+        padding-top: 1em;
+        font-size: 20px;
+    }
+    .codrops-demos a {
+        display: inline-block;
+        margin: 0.35em 0.1em;
+        padding: 0.5em 1.2em;
+        outline: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 800;
+        border-radius: 10px;
+        font-size: 20px;
+        border: 2px solid transparent;
+    }
+
+    .codrops-demos_sidebar a {
+        display: inline-block;
+        margin: 0.35em 0.1em;
+        padding: 0.5em 1.2em;
+        outline: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 800;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .codrops-demos_sidebar{
+        font-family: 'Montserrat';
+        position: absolute;
+        top: 20%;
+        bottom: 20%;
+        padding-top: 1em;
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu_button{
+        display: flex;
+        width: 50px;
+        height: auto;
+        position: absolute;
+        left: -80px;
+        top: 15px;
+        z-index: 1000;
+    }
+    .cancel_button{
+        width: 30px;
+        height: auto;
+        position: absolute;
+        left: 25px;
+        top: 25px;
+    }
+    .menu_active {
+        transform: translateX(0%);
+    }
+    .content_active {
+        transform: translateX(-100%);
+    }
+    .codrops-demos_sidebar a:hover,
+    .codrops-demos_sidebar a.current-demo {
+        color: white;
+        border-color: white;
+    }
+}
+@media (max-width: 525px) {
+    .back-call{
+        display: none;
+    }
+    .logo{
+        margin-left: 5%;
+    }
+}
