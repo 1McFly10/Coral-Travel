@@ -168,9 +168,10 @@ header option{
 
 .wrapper-feedback{
     width: 100%;
+    padding-top: 104px;
     position: absolute;
     z-index: 4;
-    top: -224px;
+    top: -328px;
 }
 
 .feedback-container{
@@ -425,41 +426,27 @@ input[type="email"]::-ms-input-placeholder { color: white; }
 input[type="email"]::placeholder { color: white; }
 
 @media (max-width: 1440px) {
-    .plane_first-article {
+    .plane_first-article{
         position: absolute;
-        left: 83%;
-        top: 100%;
-        width: 315px;
+        left: 91%;
     }
 
-    .point_first-article {
+    .point_first-article{
         position: absolute;
-        left: -10%;
-        top: 36%;
-        width: 160px;
+        left: -393px;
+        top: -65px;
     }
 
-    .plane_last-article {
+    .plane_last-article{
         position: absolute;
-        left: 83%;
-        top: -53%;
-        width: 324px;
+        left: 88%;
+        top: -76%;
     }
 
-    .point_last-article {
+    .point_last-article{
         position: absolute;
-        left: -10%;
-        top: -68%;
-        width: 160px;
-    }
-
-
-    .describe-article {
-        font-size: 35px;
-    }
-
-    .text-article {
-        font-size: 15px;
+        left: -30%;
+        top: -90%;
     }
 
 }
@@ -530,18 +517,6 @@ input[type="email"]::placeholder { color: white; }
         width: 100%;
         background: #F57220;
         padding: 20px;
-    }
-
-    .input-wrapper {
-        display: flex;
-        flex-direction: column;
-        max-width: 350px;
-        margin: 0px auto;
-    }
-
-    .form-feedback input {
-        border-bottom: 1px solid white;
-        margin-bottom: 25px;
     }
 
 }
