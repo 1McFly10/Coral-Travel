@@ -1,0 +1,305 @@
+body{
+    width: 100%;
+    height: 1900px;
+    margin: 0;
+    font-family: Arial;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header-wrapper{
+    width: 100%;
+    background-color: #0093D0;
+
+}
+
+.header-menu-wrapper{
+    width: 100%;
+    position: relative;
+}
+header{
+    width: 1190px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    justify-content: space-between;
+    font-size: .9rem;
+    position: relative;
+    z-index: 9;
+    font-family: Arial;
+}
+.header-menu ul{
+    display: flex;
+}
+.header-menu li{
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 1rem;
+    font-family: Arial;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.header-menu li:hover{
+    color:#0093D0;
+}
+header select{
+    background: none;
+    border: none;
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+header option{
+    background: none;
+    color: black;
+}
+.laguage-select{
+    padding-right: 10px;
+}
+.phone-select{
+    padding-right: 10px;
+}
+
+.route-pages{
+    width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+.tours-wrapper{
+    width: 100%;
+    height: 45vh;
+    background-image: url('../images/header/slide-4.jpg');
+    background-color: darkgray;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.tours-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+.tours{
+    width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+}
+.tours p{
+    color: white;
+    line-height: 35vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.tours-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.tourist-services-wrapper{
+    width: 100%;
+    margin-top: 270px;
+    position: relative;
+}
+.tourist-services-top-right-plane{
+    position: absolute;
+    width: 500px;
+    top: -100px;
+    right: 0;
+}
+.tourist-services{
+    width: 1190px;
+    margin: 0 auto;
+}
+.tourist-services-title{
+    font-size: 3.2rem;
+    text-transform: uppercase;
+}
+.tourist-services-slider{
+    width: 1190px;
+    display: flex;
+    position: relative;
+}
+.tourist-services-slider p{
+    padding-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    position: relative;
+    z-index: 3;
+}
+.tourist-services-slider{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+.tourist-services-slider div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.services-slider-first-slide{
+    width: 370px;
+    height: 250px;
+    background-image: url('../images/tourist-services/slider-1.png');
+    background-color: darkgray;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 1;
+}
+.tourist-services-dark-bg{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+.services-slider-second-slide{
+    height: 140px;
+    width: 190px;
+    background-image: url('../images/tourist-services/slider-2.png');
+    background-color: darkgray;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.services-slider-third-slide{
+    height: 140px;
+    width: 190px;
+    background-image: url('../images/tourist-services/slider-3.png');
+    background-color: darkgray;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.services-slider-fourth-slide{
+    height: 140px;
+    width: 190px;
+    background-image: url('../images/tourist-services/slider-4.png');
+    background-color: darkgray;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.services-slider-fifth-slide{
+    height: 140px;
+    width: 190px;
+    background-image: url('../images/tourist-services/slider-2.png');
+    background-color: darkgray;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.services-slider-blue-underline{
+    width: 100%;
+    position: absolute;
+    background-color: #0093D0;
+    height: 2.5px;
+    bottom: 25px;
+    z-index: -10;
+}
+.tourist-services-info{
+    width: 100%;
+}
+.tourist-services-info{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.tourist-services-title{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.tourist-services-text{
+    font-size: 1.1rem;
+    line-height: 28px;
+}
+.tour-countries-wrapper{
+    width: 100%;
+    margin-top: 70px;
+    position: relative;
+}
+.tour-countries{
+    width: 1200px;
+    margin: 0 auto;
+}
+.tour-countries-title{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.countries-list{
+    width: 5%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+.countries-list div{
+    display:  flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.countries-list img{
+    width: 22px;
+    height: 17px;
+}
+.countries-list div p{
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+.tour-countries-left-plane{
+    width: 550px;
+    position: absolute;
+    right: 450px;
+    top: -140px;
+}
+.tour-countries-right-plane{
+    width: 550px;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+
+}

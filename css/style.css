@@ -386,7 +386,6 @@ header option{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    /*flex-direction: column;*/
 }
 .our-team-member-name{
     font-size: 1.5rem;
