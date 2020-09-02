@@ -106,137 +106,7 @@ header option{
     position: relative;
 }
 
-.name-page{
-    width: 100%;
-    height: 40vh;
-    background-image: url("../images/page-about-company/Mask Group.png");
-    background-repeat: no-repeat ;
-    position: relative;
-}
 
-.article-name{
-    font-family: Arial;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    z-index: 3;
-    line-height: 40vh;
-}
-
-
-.name-page:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0,0,0,.7);
-    z-index: 1;
-}
-
-.articles{
-    width: 100%;
-}
-
-.articles-container{
-    max-width: 1200px;
-    margin: 0px auto;
-}
-
-.describe-article{
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 45px;
-    text-transform: uppercase;
-    color: #000000;
-    padding-top: 104px;
-}
-
-.text-article{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #000000;
-    padding-top: 30px;
-}
-
-.wrapper-feedback{
-    width: 100%;
-    position: absolute;
-    z-index: 4;
-    top: -224px;
-}
-
-.feedback-container{
-    max-width: 1200px;
-    margin: 0px auto;
-}
-
-.title-feedback{
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.feedback{
-    width: 100%;
-    background: #0093D0;
-    padding-bottom: 56px;
-
-}
-
-.title-feedback{
-    padding-top: 52px;
-    padding-bottom: 46px;
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-input{
-    border: none;
-    background: none;
-}
-
-.form-feedback input{
-    border-bottom:1px solid white;
-}
-
-.input-wrapper{
-    display: flex;
-    justify-content: space-around;
-}
-
-
-.feedback-button{
-    margin: 0px auto;
-    width: 146px;
-    padding: 14px 6px;
-    background: #F57220;
-    margin-top: 44px;
-    font-family: Arial;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 140.4%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
 
 .footer-map-info{
     width: 100%;
@@ -271,6 +141,7 @@ input{
 
 .title-footer{
     padding-top: 270px;
+    padding-left: 20px;
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -376,111 +247,19 @@ footer option{
     color: black;
 }
 
-#first_article{
-    position: relative;
+.map-container{
+    width: 100%;
+    display: flex;
 }
 
-#last_article{
-    position: relative;
-}
-
-.plane_first-article{
-    position: absolute;
-    left: 91%;
-}
-
-.point_first-article{
-    position: absolute;
-    left: -393px;
-    top: -65px;
-}
-
-.plane_last-article{
-    position: absolute;
-    left: 88%;
-    top: -76%;
-}
-
-.point_last-article{
-    position: absolute;
-    left: -30%;
-    top: -90%;
-}
-
-
-
-input[type="tel"]::-webkit-input-placeholder { color: white; }
-input[type="tel"]:-ms-input-placeholder { color: white; }
-input[type="tel"]::-ms-input-placeholder { color: white; }
-input[type="tel"]::placeholder { color: white; }
-
-input[type="text"]::-webkit-input-placeholder { color: white; }
-input[type="text"]:-ms-input-placeholder { color: white; }
-input[type="text"]::-ms-input-placeholder { color: white; }
-input[type="text"]::placeholder { color: white; }
-
-input[type="email"]::-webkit-input-placeholder { color: white; }
-input[type="email"]:-ms-input-placeholder { color: white; }
-input[type="email"]::-ms-input-placeholder { color: white; }
-input[type="email"]::placeholder { color: white; }
 
 @media (max-width: 1440px) {
-    .plane_first-article {
-        position: absolute;
-        left: 83%;
-        top: 100%;
-        width: 315px;
-    }
 
-    .point_first-article {
-        position: absolute;
-        left: -10%;
-        top: 36%;
-        width: 160px;
-    }
-
-    .plane_last-article {
-        position: absolute;
-        left: 83%;
-        top: -53%;
-        width: 324px;
-    }
-
-    .point_last-article {
-        position: absolute;
-        left: -10%;
-        top: -68%;
-        width: 160px;
-    }
-
-
-    .describe-article {
-        font-size: 35px;
-    }
-
-    .text-article {
-        font-size: 15px;
-    }
 
 }
 
 @media (max-width: 1024px) {
 
-    .plane_first-article {
-        display: none;
-    }
-
-    .plane_last-article {
-        display: none;
-    }
-
-    .point_first-article {
-        display: none;
-    }
-
-    .point_last-article {
-        display: none;
-    }
 
     header {
         padding: 10px;
@@ -529,27 +308,22 @@ input[type="email"]::placeholder { color: white; }
     .map-info {
         width: 100%;
         background: #F57220;
-    }
-
-    .input-wrapper {
-        display: flex;
-        flex-direction: column;
-        max-width: 350px;
-        margin: 0px auto;
-    }
-
-    .form-feedback input {
-        border-bottom: 1px solid white;
-        margin-bottom: 25px;
+        padding: 0px;
     }
 
 }
 
 @media (max-width: 768px) {
 
-        .fly-map {
-            display: none;
-        }
+    .map-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .fly-map {
+        display: none;
+    }
 
     .input-wrapper {
         display: flex;
@@ -589,12 +363,14 @@ input[type="email"]::placeholder { color: white; }
     .map-info {
         width: 100%;
         background: #F57220;
+        padding: 0px;
     }
 
 
 }
 
 @media (max-width: 425px) {
+
     header {
         display: none;
     }

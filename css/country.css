@@ -164,6 +164,7 @@ header option{
     text-transform: capitalize;
     color: #000000;
     padding-top: 30px;
+    padding-bottom: 76px;
 }
 
 .wrapper-feedback{
@@ -253,7 +254,6 @@ input{
 .map-info{
     width: 100%;
     background: #F57220;
-    padding-left: 64px;
 }
 
 .map-info{
@@ -268,7 +268,7 @@ input{
 
 .work-time{
     display: flex;
-    padding-top: 22px;
+    padding: 20px;
 }
 
 .title-footer{
@@ -306,6 +306,7 @@ input{
     width: 30%;
     align-items: center;
     margin-top: 30px;
+    padding: 20px;
 }
 
 
@@ -385,15 +386,52 @@ footer option{
     position: relative;
 }
 
-.plane_first-article{
+.plane_first-article {
     position: absolute;
     left: 91%;
+    top: 0%;
+}
+
+.point_mid-article{
+    left: 0%;
+    top: 124%;
+    position: absolute;
+}
+
+.plane_mid-article {
+    position: absolute;
+    left: 76%;
+    top: 388%;
+}
+
+.photo-country-first{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+
+.photo-country-second{
+    z-index: 1;
+    position: relative;
+    width: 100%;
 }
 
 .point_first-article{
     position: absolute;
     left: -393px;
     top: -65px;
+}
+
+.point2_mid-article{
+    position: absolute;
+    left: 73%;
+    top: 189%;
+}
+
+.plane2_mid-article{
+    position: absolute;
+    left: 0%;
+    top: 253%;
 }
 
 .plane_last-article{
@@ -408,7 +446,20 @@ footer option{
     top: -90%;
 }
 
+.country-name{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    padding-top: 30px;
+    text-transform: capitalize;
+    color: #000000;
+}
 
+.photo-cuuntry-first{
+    width: 100%;
+    padding-top: 76px ;
+}
 
 input[type="tel"]::-webkit-input-placeholder { color: white; }
 input[type="tel"]:-ms-input-placeholder { color: white; }
@@ -428,13 +479,33 @@ input[type="email"]::placeholder { color: white; }
 @media (max-width: 1440px) {
     .plane_first-article{
         position: absolute;
-        left: 91%;
+        left: 72%;
+    }
+
+    .point2_mid-article {
+        position: absolute;
+        left: 69%;
+        top: 195%;
+        width: 438px;
+    }
+
+    .plane_mid-article {
+        position: absolute;
+        left: 69%;
+        top: 388%;
     }
 
     .point_first-article{
         position: absolute;
         left: -393px;
         top: -65px;
+    }
+
+    .plane2_mid-article {
+        position: absolute;
+        left: 0%;
+        top: 269%;
+        width: 100px;
     }
 
     .plane_last-article{
@@ -452,6 +523,22 @@ input[type="email"]::placeholder { color: white; }
 }
 
 @media (max-width: 1024px) {
+
+    .plane_mid-article {
+        display: none;
+    }
+
+    .point_mid-article {
+        display: none;
+    }
+
+    .point2_mid-article{
+        display: none;
+    }
+
+    .plane2_mid-article{
+        display: none;
+    }
 
     .plane_first-article {
         display: none;
@@ -486,7 +573,7 @@ input[type="email"]::placeholder { color: white; }
     }
 
     .title-footer {
-        padding-top: 0px;
+        padding: 20px;
     }
 
     footer {
@@ -516,12 +603,14 @@ input[type="email"]::placeholder { color: white; }
     .map-info {
         width: 100%;
         background: #F57220;
-        padding: 20px;
+        padding: 0px;
     }
 
 }
 
 @media (max-width: 768px) {
+
+
 
         .fly-map {
             display: none;
@@ -565,7 +654,7 @@ input[type="email"]::placeholder { color: white; }
     .map-info {
         width: 100%;
         background: #F57220;
-        padding: 20px;
+        padding: 0px;
     }
 
 
@@ -599,7 +688,7 @@ input[type="email"]::placeholder { color: white; }
     }
 
     .map-info {
-        padding: 20px;
+        padding: 0px;
     }
 
     .title-footer {
