@@ -10,7 +10,6 @@ a{
 .header-wrapper{
     width: 100%;
     background-color: #0093D0;
-
 }
 
 .header-menu-wrapper{
@@ -194,7 +193,6 @@ header option{
     width: 100%;
     background: #0093D0;
     padding-bottom: 56px;
-
 }
 
 .title-feedback{
@@ -222,7 +220,6 @@ input{
     display: flex;
     justify-content: space-around;
 }
-
 
 .feedback-button{
     margin: 0px auto;

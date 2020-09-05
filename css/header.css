@@ -10,8 +10,109 @@ a {
     .left_sidebar{
         display: none;
     }
+.header-wrapper{
+    width: 100%;
+    background-color: #0093D0;
+}
+.header-menu-wrapper{
+    width: 100%;
+    position: relative;
+}
+header{
+    width: 1190px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    justify-content: space-between;
+    font-size: .9rem;
+    position: relative;
+    z-index: 9;
+    font-family: Arial;
+}
+.header-menu ul{
+    display: flex;
+}
+.header-menu li{
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 1rem;
+    font-family: Arial;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.header-menu li:hover{
+    color: black;
+}
+header select{
+    background: none;
+    border: none;
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+header option{
+    background: none;
+    color: black;
+}
+.laguage-select{
+    padding-right: 10px;
+}
+.phone-select{
+    padding-right: 10px;
+}
 
+@media (max-width: 1440px) {
+    header {
+        width: 1000px;
+        height: 100px;
+    }
+}
+@media (max-width: 1024px) {
+    header {
+        width: 760px;
+        height: 100px;
+    }
+
+    .logo {
+        width: 170px;
+    }
+
+    .laguage-select {
+        display: none;
+    }
+
+    .header-menu li {
+        margin-left: 7px;
+        margin-right: 7px;
+        font-size: .95rem;
+        font-family: Arial;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+}
 @media (max-width: 769px) {
+    .header-menu{
+        display: none;
+    }
+    .phone-select{
+        display: none;
+    }
+    .social-nav{
+        display: none;
+    }
+    .banner-info-main-text{
+        margin-top: 200px;
+    }
+    .banner-info-title{
+        font-size: 4rem;
+    }
+    header{
+        width: 420px;
+    }
 
     .header-menu{
         display: none;
@@ -194,6 +295,11 @@ a {
     }
     .logo{
         margin-left: 10%;
+    }
+}
+@media (max-width: 425px) {
+    header {
+        width: 100%;
     }
 }
 @media (max-width: 360px) {

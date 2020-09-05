@@ -2,8 +2,7 @@ body{
   width: 100%;
   height: 2000px;
   margin: 0;
-    font-family: Arial;
-    /*height: 2000px;*/
+  font-family: Arial;
 }
 a{
     color: white;
@@ -170,6 +169,10 @@ header option{
     text-transform: uppercase;
 }
 .slider-wrapper{
+    width: 100%;
+    /*display: flex;*/
+}
+.slider-wrapper-slide{
     width: 100%;
     margin-top: 30px;
     display: grid;
@@ -728,6 +731,7 @@ input[type="email"]::-webkit-input-placeholder { color: white; }
 input[type="email"]:-ms-input-placeholder { color: white; }
 input[type="email"]::-ms-input-placeholder { color: white; }
 input[type="email"]::placeholder { color: white; }
+
 
 @media (max-width: 1440px) {
     header{

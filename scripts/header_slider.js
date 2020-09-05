@@ -1,4 +1,4 @@
-backgrounds_array = ['images/header_slider/window_1.png','images/header_slider/window_2.jpg', 'images/header_slider/window_4.jpg', 'images/header_slider/window_5.jpg'];
+backgrounds_array = ['images/header/slide-4.jpg','images/header/slide-1.jpg', 'images/header/slide-2.jpg', 'images/header/slide-3.jpg'];
 // slider_button_array = ['slider-button-1','slider-button-2','slider-button-3','slider-button-4']
 function Rotator_cont() {
 
@@ -12,7 +12,7 @@ function Rotator_cont() {
 
     function Rotator(i){
         i++; if( i > N - 1){i=0};//alert(i);
-        $('.banner_wrapper').css('background-image', 'url('+ backgrounds_array[i] +')');
+        $('.header-wrapper').css('background-image', 'url('+ backgrounds_array[i] +')');
         timerId01=setTimeout(function(){Rotator(i)},s);return;}
 }
-Rotator_cont()
+Rotator_cont();
