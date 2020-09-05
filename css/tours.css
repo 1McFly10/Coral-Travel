@@ -299,6 +299,10 @@ header option{
     top: 150px;
 }
 
+.title-footer{
+    padding-left: 20px;
+}
+
 @media (max-width: 1440px) {
     header{
         width: 1000px;

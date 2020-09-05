@@ -456,10 +456,7 @@ footer option{
     color: #000000;
 }
 
-.photo-cuuntry-first{
-    width: 100%;
-    padding-top: 76px ;
-}
+
 
 input[type="tel"]::-webkit-input-placeholder { color: white; }
 input[type="tel"]:-ms-input-placeholder { color: white; }
