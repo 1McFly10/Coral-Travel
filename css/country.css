@@ -609,9 +609,6 @@ input[type="email"]::placeholder { color: white; }
 }
 
 @media (max-width: 768px) {
-
-
-
         .fly-map {
             display: none;
         }

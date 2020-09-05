@@ -1,6 +1,5 @@
 body{
     width: 100%;
-    height: 1900px;
     margin: 0;
     font-family: Arial;
 }
@@ -299,6 +298,7 @@ header option{
     right: 100px;
     top: 150px;
 }
+
 @media (max-width: 1440px) {
     header{
         width: 1000px;
