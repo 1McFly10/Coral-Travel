@@ -11,7 +11,7 @@ a{
 }
 .header-wrapper{
     width: 100%;
-    height: 85vh;
+    height: 650px;
     background-image: url('../images/header/slide-4.jpg');
     background-color: darkgray;
     position: relative;
@@ -263,6 +263,7 @@ header option{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .advantages-item img{
     width: 90px;
@@ -420,120 +421,380 @@ header option{
     transform: rotate(180deg);
 }
 
-
-@media (max-width: 425px) {
-
-    .popup__content {
-        max-width: 300px;
+@media (max-width: 1440px) {
+    header{
+        width: 1020px;
+    }
+    .banner-info-wrapper{
+        width: 1020px;
+    }
+    .tourist-services{
+        width: 1020px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .advantages{
+        width: 1020px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about-company{
+        width: 1020px;
+    }
+    .our-team{
+        width: 1020px;
+    }
+}
+@media(max-width: 1410px){
+    .about-company-images{
+        top: 130px;
+    }
+    .about-company-images img{
+        width: 225px;
+        height: 290px;
+    }
+    .about-company-images div{
+        width: 225px;
+        height: 620px;
+        margin-left: 7px;
+        margin-right: 7px;
     }
 
-    .comment-text-wrapper {
-        width: 300px;
-        height: 400px;
+}
+@media (max-width: 1024px) {
+    header{
+        width: 760px;
     }
-
-    form input {
+    .logo{
+        width: 200px;
+    }
+    .header-menu li{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .laguage-select{
+        display: none;
+    }
+    .banner-info-wrapper{
+        width: 760px;
+    }
+    .tourist-services{
+        width: 760px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-plane {
         width: 280px;
-    }
-
-    .free-calculate-form-button {
-        width: 305px;
-    }
-
-    .text-info{
-        width: 310px;
-    }
-    .sales_wrapper{
-        width: 310px;
-    }
-    .sales-cards{
-        width: 310px;
-    }
-    .sales-card{
-        width: 100%;
-    }
-    .guarantee{
-        flex-wrap: wrap;
-    }
-    .left-sidebar-text{
-        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 610px;
+        z-index: 1;
     }
     .advantages-wrapper{
-        width: 100%;
+        height: 500px;
     }
-    .profile-systems-wrapper{
-        width: 310px;
-
+    .advantages-image img{
+        height: 590px;
     }
-    .sales-card .logo{
-        width: 155px;
-        height: 47px;
+    .advantages{
+        width: 760px;
+    }
+    .advantages-title{
+        padding-left: 0px;
+    }
+    .about-company{
+        width: 760px;
+    }
+    .our-team{
+        width: 760px;
+    }
+    .about-company-left-plane{
+        width: 250px;
+        height: 400px;
         position: absolute;
-        top: 50px;
-        left: 25px;
-    }
-    .sales-card .red-tape img{
-        width: 244px;
-        height: 100px;
-        position: absolute;
-        top: 120px;
+        top: 150px;
         left: 0px;
     }
-    .sales-card-discount{
+    .about-company-right-plane {
+        width: 320px;
+        height: 480px;
         position: absolute;
-        top: 105px;
-        left: 40px;
-        font-size: 2.6rem;
-        letter-spacing: 2.5px;
+        top: 400px;
+        right: 0;
     }
-    .sales-card-title{
-        text-align: left;
-        width: 50%;
+    .about-company-center-plane {
+        width: 500px;
+        height: 500px;
         position: absolute;
-        top: 100px;
-        left: 40px;
-        font-size: 1.6rem;
+        top: 580px;
+        left: 150px;
+        /* z-index: 100; */
+    }
+    .about-company-top-plane {
+        width: 450px;
+        height: 450px;
+        top: -300px;
+        left: 200px;
+    }
+    .about-company-images{
+        top: 130px;
+    }
+    .about-company-images img{
+        width: 165px;
+        height: 230px;
+    }
+    .about-company-images div{
+        width: 165px;
+        height: 500px;
+        margin-left: 7px;
+        margin-right: 7px;
     }
 
-    .sales-card-button {
-        position: absolute;
-        bottom: 60px;
-        left: 40px;
-        color: white;
-        text-transform: uppercase;
-        padding: 15px;
-        border: 1.5px solid white;
-        z-index: 4;
-        cursor: pointer;
+    .about-company-images div:nth-child(2){
+        margin-top: 100px;
     }
-    .profile-systems-wrapper{
-        margin-top: 50px;
+    .about-company-images div:nth-child(3){
+        margin-bottom: 200px;
     }
-    .profile-logos{
+    .about-company-images div:nth-child(4){
+        margin-bottom: 200px;
+    }
+}
+@media (max-width: 768px) {
+    .header-menu{
+        display: none;
+    }
+    .phone-select{
+        display: none;
+    }
+    .social-nav{
+        display: none;
+    }
+    .banner-info-main-text{
+        margin-top: 200px;
+    }
+    .banner-info-title{
+        font-size: 4rem;
+    }
+    header{
+        width: 420px;
+    }
+    .logo{
+        width: 200px;
+    }
+    .laguage-select{
+        display: none;
+    }
+    .banner-info-wrapper{
+        width: 420px;
+    }
+    .tourist-services{
+        width: 420px;
+        margin: 0 auto;
         display: flex;
-        width: 95%;
-        justify-content: space-between;
-        margin-top: 50px;
+        flex-direction: column;
     }
-    .profile-logos img{
-        width: 60px;
-        height: 30px;
+    .left-plane {
+        width: 280px;
+        position: absolute;
+        left: 0;
+        top: 610px;
+        z-index: 1;
     }
-    .profile-card{
-        width: 310px;
+    .advantages-wrapper{
+        height: 500px;
+    }
+    .advantages-image img{
+        height: 590px;
+    }
+    .advantages{
+        width: 420px;
+    }
+    .advantages-title{
+        padding-left: 0px;
+    }
+    .about-company{
+        width: 420px;
+    }
+    .our-team{
+        width: 420px;
+    }
+    .slider-wrapper img{
+        width: 100%;
+        z-index: 2;
+    }
+    .about-company-images{
+        top: 250px;
+    }
+    .about-company-info{
+        width: 100%;
+    }
+    .about-company-images img{
+        width: 90px;
+        height: 140px;
+    }
+    .about-company-images div{
+        width: 90px;
+        height: 300px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .about-company-images div:nth-child(2) {
+        margin-top: 20px;
+    }
+    .about-company-images div:nth-child(3) {
+        margin-bottom: 100px;
+    }
+    .about-company-images div:nth-child(4) {
+        margin-bottom: 100px;
+    }
+    .about-company-left-plane {
+            width: 170px;
+            height: 280px;
+            top: 200px;
+    }
+    .about-company-right-plane {
+        width: 220px;
+        height: 340px;
+        top: 400px;
+        right: 0;
+    }
+    .about-company-center-plane {
+        width: 300px;
+        height: 300px;
+        top: 580px;
+        left: 100px;
+    }
+    .about-company-top-plane {
+        display: none;
+    }
+    .advantages-wrapper{
+        margin-bottom: 70px;
+    }
+    .advantages-list-wrapper{
+        width: 100%;
+    }
+    .advantages-image{
+        display: none;
+    }
+    .our-team-wrapper{
+        margin-top: 700px;
+    }
+    .our-team-slider{
         flex-wrap: wrap;
     }
-    .profile-image-wrapper{
-        width: 90%;
+    .our-team-slider img{
+        width: 100%;
+    }
+    .our-team-slider-info{
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .our-team-slider-text{
+        width: 100%;
+    }
+    .our-team-slider-buttons{
+        width: 20%;
+        margin-top: 25px;
+    }
+}
+@media (max-width: 426px) {
+    .about-company-center-plane {
+        display: none;
+    }
+    .about-company-right-plane {
+        top: 520px;
+    }
+    .about-company-left-plane {
+        top: 150px;
+    }
+    .left-map{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    .logo{
+        width: 200px;
+    }
+    .header-menu li{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .laguage-select{
+        display: none;
+    }
+    .banner-info-wrapper{
+        width: 100%;
+    }
+    .tourist-services{
+        width: 95%;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
     }
-    .profile-info{
+    .advantages-title {
+        font-size: 2.3rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .tourist-services-title-text{
+        font-size: 2rem;
+    }
+    .left-plane {
+        width: 280px;
+        position: absolute;
+        left: 0;
+        top: 610px;
+        z-index: 1;
+    }
+    .advantages-wrapper{
+        height: 450px;
+    }
+    .advantages{
+        width: 100%;
+    }
+    .advantages-title{
+        padding-left: 0px;
+    }
+    .about-company{
         width: 90%;
-        margin: 0 auto;
     }
-    .profile-button{
-        width: 120px;
-        font-size: .75rem;
+    .our-team{
+        width: 90%;
     }
-
+    .about-company-images{
+        top: 270px;
+    }
+    .about-company-images img{
+        width: 60px;
+        height: 95px;
+    }
+    .about-company-images div{
+        width: 60px;
+        height: 210px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .about-company-left-plane {
+        width: 150px;
+        height: 260px;
+        top: 190px;
+    }
+    .about-company-right-plane {
+        top: 450px;
+    }
+    .our-team-wrapper{
+        margin-top: 500px
+    }
+    .our-team-slider-buttons {
+        margin-left: 40px;
+    }
 }

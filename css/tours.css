@@ -42,9 +42,6 @@ header{
     letter-spacing: 1px;
     cursor: pointer;
 }
-.header-menu li:hover{
-    color:#0093D0;
-}
 header select{
     background: none;
     border: none;
@@ -76,7 +73,7 @@ header option{
 }
 .tours-wrapper{
     width: 100%;
-    height: 45vh;
+    height: 450px;
     background-image: url('../images/header/slide-4.jpg');
     background-color: darkgray;
     position: relative;
@@ -107,7 +104,7 @@ header option{
 }
 .tours p{
     color: white;
-    line-height: 35vh;
+    line-height: 350px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -124,7 +121,7 @@ header option{
 .tourist-services-top-right-plane{
     position: absolute;
     width: 500px;
-    top: -100px;
+    top: -150px;
     right: 0;
 }
 .tourist-services{
@@ -291,15 +288,252 @@ header option{
     font-size: 1.1rem;
 }
 .tour-countries-left-plane{
-    width: 550px;
+    width: 500px;
     position: absolute;
     right: 450px;
     top: -140px;
 }
 .tour-countries-right-plane{
-    width: 550px;
+    width: 500px;
     position: absolute;
     right: 100px;
     top: 150px;
-
+}
+@media (max-width: 1440px) {
+    header{
+        width: 1000px;
+        height: 100px;
+    }
+    .route-pages{
+        width: 1000px;
+        height: 50px;
+    }
+    .tours{
+        width: 1000px;
+    }
+    .tourist-services{
+        width: 1000px;
+    }
+    .tourist-services-slider{
+        width: 1000px;
+    }
+    .tour-countries{
+        width: 1000px;
+    }
+    .tourist-services-top-right-plane {
+        position: absolute;
+        width: 400px;
+        top: -150px;
+        right: 0;
+    }
+    .tour-countries-left-plane{
+        width: 350px;
+        position: absolute;
+        right: 350px;
+        top: -100px;
+    }
+    .tour-countries-right-plane{
+        width: 350px;
+        position: absolute;
+        right: 100px;
+        top: 150px;
+    }
+    .services-slider-first-slide {
+        width: 330px;
+        height: 200px;
+    }
+    .services-slider-second-slide {
+        height: 110px;
+        width: 155px;
+    }
+    .services-slider-third-slide {
+        height: 110px;
+        width: 155px;
+    }
+    .services-slider-fourth-slide {
+        height: 110px;
+        width: 155px;
+    }
+    .services-slider-fifth-slide {
+        height: 110px;
+        width: 155px;
+    }
+}
+@media (max-width: 1024px) {
+    header{
+        width: 760px;
+        height: 100px;
+    }
+    .logo{
+        width: 170px;
+    }
+    .laguage-select{
+        display: none;
+    }
+    .header-menu li{
+        margin-left: 7px;
+        margin-right: 7px;
+        font-size: .95rem;
+        font-family: Arial;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    .route-pages{
+        width: 760px;
+        height: 50px;
+        font-size: .9rem;
+    }
+    .tours{
+        width: 760px;
+    }
+    .tourist-services{
+        width: 760px;
+    }
+    .tourist-services-slider{
+        width: 760px;
+    }
+    .tour-countries{
+        width: 760px;
+    }
+    .tourist-services-top-right-plane {
+        position: absolute;
+        width: 300px;
+        top: -150px;
+        right: 0;
+    }
+    .tour-countries-left-plane{
+        width: 250px;
+        position: absolute;
+        right: 250px;
+        top: -70px;
+    }
+    .tour-countries-right-plane{
+        width: 250px;
+        position: absolute;
+        right: 50px;
+        top: 150px;
+    }
+    .services-slider-first-slide {
+        width: 250px;
+        height: 180px;
+    }
+    .services-slider-second-slide {
+        height: 90px;
+        width: 115px;
+    }
+    .services-slider-third-slide {
+        height: 90px;
+        width: 115px;
+    }
+    .services-slider-fourth-slide {
+        height: 90px;
+        width: 115px;
+    }
+    .services-slider-fifth-slide {
+        height: 90px;
+        width: 115px;
+    }
+    .tourist-services-slider p {
+        padding-bottom: 10px;
+        font-size: .8rem;
+    }
+}
+@media (max-width: 768px) {
+    .header-menu{
+        display: none;
+    }
+    .phone-select{
+        display: none;
+    }
+    .social-nav{
+        display: none;
+    }
+    .banner-info-main-text{
+        margin-top: 200px;
+    }
+    .banner-info-title{
+        font-size: 4rem;
+    }
+    header{
+        width: 420px;
+    }
+    .route-pages{
+        width: 95%;
+        height: 50px;
+    }
+    .tours{
+        width: 425px;
+    }
+    .tours-title{
+        margin-left: 20px;
+    }
+    .tourist-services{
+        width: 425px;
+    }
+    .tourist-services-slider{
+        width: 425px;
+    }
+    .tour-countries{
+        width: 425px;
+    }
+    .tourist-services-top-right-plane {
+        display: none;
+    }
+    .tour-countries-left-plane{
+        display: none;
+    }
+    .tour-countries-right-plane{
+        display: none;
+    }
+    .services-slider-first-slide {
+        width: 250px;
+        height: 180px;
+    }
+    .services-slider-second-slide {
+        height: 90px;
+        width: 115px;
+    }
+    .services-slider-third-slide {
+        height: 90px;
+        width: 115px;
+    }
+    .services-slider-fourth-slide {
+        height: 90px;
+        width: 115px;
+    }
+    .services-slider-fifth-slide {
+        height: 90px;
+        width: 115px;
+    }
+    .tourist-services-slider p {
+        padding-bottom: 10px;
+        font-size: .8rem;
+    }
+    .countries-list{
+        width: 100%;
+    }
+}
+@media (max-width: 425px) {
+    header{
+        width: 100%;
+    }
+    .route-pages{
+        width: 95%;
+        height: 50px;
+    }
+    .tours{
+        width: 95%;
+    }
+    .tours-title{
+        margin-left: 20px;
+    }
+    .tourist-services{
+        width: 95%;
+    }
+    .tourist-services-slider{
+        width: 95%;
+    }
+    .tour-countries{
+        width: 95%;
+    }
 }

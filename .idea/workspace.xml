@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf268b9e-5845-458d-a9aa-ce7ffb7a61d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/tours.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tours.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tours.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tours.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/burger_menu/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/burger_menu/menu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tours.html" beforeDir="false" afterPath="$PROJECT_DIR$/tours.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +40,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Beton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -73,6 +75,7 @@
       <workItem from="1598772952761" duration="5868000" />
       <workItem from="1598799943643" duration="4865000" />
       <workItem from="1598895599327" duration="10627000" />
+      <workItem from="1599301203326" duration="6025000" />
     </task>
     <servers />
   </component>
@@ -84,7 +87,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

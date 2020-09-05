@@ -17,10 +17,10 @@ a {
         display: none;
     }
     .logo{
-        margin-left: 2%;
+        margin-left: 10%;
     }
     header{
-        position: absolute;
+        /*position: absolute;*/
         width: 100%;
         display: flex;
         justify-content: normal;
@@ -46,16 +46,47 @@ a {
         height: 9px;
         margin-left: 10px;
     }
-    .back-call {
-        width: 190px;
-        height: 64px;
-        background-color: #CFA166;
-        color: white;
-        text-align: center;
-        line-height: 64px;
+    .mobile-menu-header{
+        width: 100%;
+        background-color: #0093D0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+    }
+    .mobile-menu-social{
+        width: 40%;
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .mobile-menu-social img{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .mobile-menu-phone-wrapper{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: .7px solid lightgray;
+        border-bottom: .7px solid lightgray;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mobile-menu-phone-wrapper p{
+        color: black;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .mobile-menu-language-select{
+        width: 65px;
+        color: black;
         font-weight: bold;
-        text-transform: uppercase;
-        font-size: 14px;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
     /* BURGER MENU */
     .left_sidebar{
@@ -64,8 +95,8 @@ a {
         flex-direction: column;
         width: 100%;
         text-align: center;
-        background-color: #1C70EE;
-        color: white;
+        background-color: white;
+        color: black;
         height: 100%;
         left: 0;top: 0;
         z-index: 99;
@@ -76,7 +107,10 @@ a {
         /*overflow-y: auto;*/
     }
     .left_sidebar a{
-        color: white;
+        color: black;
+    }
+    .mobile-menu-header-logo{
+        width: 200px;
     }
     /* Demo Buttons Style */
     .codrops-demos {
@@ -89,7 +123,7 @@ a {
         padding: 0.5em 1.2em;
         outline: none;
         text-decoration: none;
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
         letter-spacing: 1px;
         font-weight: 800;
         border-radius: 10px;
@@ -98,12 +132,12 @@ a {
     }
 
     .codrops-demos_sidebar a {
-        display: inline-block;
+        /*display: inline-block;*/
         margin: 0.35em 0.1em;
         padding: 0.5em 1.2em;
         outline: none;
         text-decoration: none;
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
         letter-spacing: 1px;
         font-weight: 800;
         border-radius: 10px;
@@ -112,10 +146,11 @@ a {
         justify-content: center;
         align-items: center;
         align-content: center;
+        color: black;
     }
     .codrops-demos_sidebar{
         font-family: 'Montserrat';
-        position: absolute;
+        /*position: absolute;*/
         top: 20%;
         bottom: 20%;
         padding-top: 1em;
@@ -123,6 +158,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        color: black;
     }
     .menu_button{
         display: flex;
@@ -130,7 +166,7 @@ a {
         height: auto;
         position: absolute;
         left: -80px;
-        top: 15px;
+        top: 22px;
         z-index: 1000;
     }
     .cancel_button{
@@ -148,8 +184,8 @@ a {
     }
     .codrops-demos_sidebar a:hover,
     .codrops-demos_sidebar a.current-demo {
-        color: white;
-        border-color: white;
+        color: black;
+        border-color: black;
     }
 }
 @media (max-width: 525px) {
@@ -157,6 +193,11 @@ a {
         display: none;
     }
     .logo{
-        margin-left: 5%;
+        margin-left: 10%;
+    }
+}
+@media (max-width: 360px) {
+    .mobile-menu-header-logo{
+        width: 150px;
     }
 }
