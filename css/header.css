@@ -301,6 +301,10 @@ header option{
     header {
         width: 100%;
     }
+    .menu_button{
+        width: 40px;
+        top: 26px
+    }
 }
 @media (max-width: 360px) {
     .mobile-menu-header-logo{
