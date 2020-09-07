@@ -155,12 +155,13 @@ header option{
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    cursor: pointer;
 
 }
 .services-slider-first-slide{
     width: 370px;
     height: 250px;
-    background-image: url('../images/tourist-services/slider-1.png');
+    /*background-image: url('../images/tourist-services/slider-1.png');*/
     background-color: darkgray;
     position: relative;
     background-position: center;
@@ -183,7 +184,7 @@ header option{
 .services-slider-second-slide{
     height: 140px;
     width: 190px;
-    background-image: url('../images/tourist-services/slider-2.png');
+    /*background-image: url('../images/tourist-services/slider-2.png');*/
     background-color: darkgray;
     position: relative;
     background-position: center;
@@ -195,7 +196,7 @@ header option{
 .services-slider-third-slide{
     height: 140px;
     width: 190px;
-    background-image: url('../images/tourist-services/slider-3.png');
+    /*background-image: url('../images/tourist-services/slider-3.png');*/
     background-color: darkgray;
     position: relative;
     background-position: center;
@@ -207,7 +208,7 @@ header option{
 .services-slider-fourth-slide{
     height: 140px;
     width: 190px;
-    background-image: url('../images/tourist-services/slider-4.png');
+    /*background-image: url('../images/tourist-services/slider-4.png');*/
     background-color: darkgray;
     position: relative;
     background-position: center;
@@ -219,7 +220,7 @@ header option{
 .services-slider-fifth-slide{
     height: 140px;
     width: 190px;
-    background-image: url('../images/tourist-services/slider-2.png');
+    /*background-image: url('../images/tourist-services/slider-2.png');*/
     background-color: darkgray;
     position: relative;
     background-position: center;
@@ -237,13 +238,17 @@ header option{
     bottom: 25px;
     z-index: -10;
 }
-.tourist-services-info{
-    width: 100%;
-}
-.tourist-services-info{
+.tourist-services-info-first, .tourist-services-info-second,
+.tourist-services-info-third, .tourist-services-info-fourth,
+.tourist-services-info-fifth{
     width: 100%;
     margin: 0 auto;
     margin-top: 50px;
+}
+.tourist-services-info-second,
+.tourist-services-info-third, .tourist-services-info-fourth,
+.tourist-services-info-fifth{
+    display: none;
 }
 .tourist-services-title{
     font-size: 2rem;
@@ -488,8 +493,8 @@ header option{
         display: none;
     }
     .services-slider-first-slide {
-        width: 250px;
-        height: 180px;
+        width: 115px;
+        height: 90px;
     }
     .services-slider-second-slide {
         height: 90px;

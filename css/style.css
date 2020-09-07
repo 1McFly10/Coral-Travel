@@ -170,6 +170,7 @@ header option{
 }
 .slider-wrapper{
     width: 100%;
+    margin-top: 20px;
     /*display: flex;*/
 }
 .slider-wrapper-slide{
@@ -181,7 +182,44 @@ header option{
     grid-column-gap: 15px;
     grid-row-gap: 10px;
 }
+.slider-wrapper div{
+    position: relative;
+    z-index: 4;
+}
+.slick-slide div{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
 
+ }
+.tourist-services .slick-slide img{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.tourist-services .slick-slide p{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 25px;
+    font-size: 1.2rem;
+    color: white;
+    z-index: 10;
+
+}
+.tourist-services-dark-bg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+.tourist-services .slick-list{
+    margin: 20px 20px 30px;
+}
 .tourist-services-slider-buttons{
     display: flex;
 }
@@ -198,10 +236,7 @@ header option{
 .tourist-services-slider-right-button{
     transform: rotate(180deg);
 }
-.slider-wrapper img{
-    width: 90%;
-    z-index: 2;
-}
+
 .bottom-image-slider{
     margin-top: 40px;
 }
@@ -382,6 +417,9 @@ header option{
     display: flex;
     justify-content: flex-end;
 }
+.our-team-slide{
+    display: flex;
+}
 .our-team-slider img{
     width: 45%;
 }
@@ -390,6 +428,23 @@ header option{
     display: flex;
     align-items: flex-end;
     justify-content: center;
+}
+.tourist-services-slider-buttons img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tourist-services-slider-buttons img:hover{
+    opacity: .4;
+}
+
+.our-team-slider .slick-slide{
+    display: flex;
+}
+.our-team-slider-right-button{
+    transform: rotate(180deg);
 }
 .our-team-member-name{
     font-size: 1.5rem;
@@ -403,12 +458,13 @@ header option{
     margin-bottom: 10px;
 }
 .our-team-slider-text{
-    width: 60%;
+    width: 90%;
     font-size: 1.2rem;
 }
 .our-team-slider-buttons{
     display: flex;
-    margin: 20px;
+    margin-top: 25px;
+    justify-content: flex-start;
 }
 .our-team-slider-buttons img{
     width: 30px;
@@ -421,7 +477,6 @@ header option{
     opacity: .4;
 }
 .our-team-slider-buttons{
-    transform: rotate(180deg);
 }
 
 
@@ -496,7 +551,7 @@ header option{
         position: absolute;
         left: 0;
         top: 610px;
-        z-index: 1;
+        z-index: -1;
     }
     .advantages-wrapper{
         height: 500px;
@@ -606,8 +661,8 @@ header option{
         width: 280px;
         position: absolute;
         left: 0;
-        top: 610px;
-        z-index: 1;
+        top: 910px;
+
     }
     .advantages-wrapper{
         height: 500px;
@@ -626,10 +681,6 @@ header option{
     }
     .our-team{
         width: 420px;
-    }
-    .slider-wrapper img{
-        width: 100%;
-        z-index: 2;
     }
     .about-company-images{
         top: 250px;
@@ -690,6 +741,9 @@ header option{
     }
     .our-team-slider{
         flex-wrap: wrap;
+    }
+    .our-team-slider .slick-slide{
+        display: block;
     }
     .our-team-slider img{
         width: 100%;
@@ -756,8 +810,8 @@ header option{
         width: 280px;
         position: absolute;
         left: 0;
-        top: 610px;
-        z-index: 1;
+        top: 810px;
+        z-index: -1;
     }
     .advantages-wrapper{
         height: 450px;

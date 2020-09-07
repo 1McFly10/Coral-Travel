@@ -102,6 +102,9 @@
 {
     display: block;
 }
+.our-team-slider .slick-slide{
+    display: flex;
+}
 .slick-loading .slick-slide
 {
     visibility: hidden;
@@ -116,4 +119,9 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+@media (max-width: 769px) {
+    .our-team-slider .slick-slide{
+        display: block;
+    }
 }

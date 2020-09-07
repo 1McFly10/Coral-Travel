@@ -1,30 +1,26 @@
-jQuery('.slider-wrapper').slick({
-    slidesToShow:6,
-    slidesToScroll: 6,
-    autoplay: false,
-    infinite: true,
-    dots: false,
-    responsive: [
-        {
-            breakpoint: 1200,
-            settings: {
-                slidesToShow:3,
-                slidesToScroll: 1,
-                infinite: true,
-            }
-        },
-        {
-            breakpoint: 990,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 769,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        } ]
+$(function(){
+    $('.slider-wrapper').slick({
+        slidesToShow:3,
+        slidesToScroll: 1,
+        rows: 2,
+        arrows: true,
+        // autoplay: true,
+        // autoplaySpeed: 2000,
+        infinite: true,
+        draggable: true,
+        dots: false,
+        prevArrow: $('.tourist-services-slider-left-button'),
+        nextArrow: $('.tourist-services-slider-right-button'),
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            } ]
+    });
+
 });
+// $('.tourist-services-slider-buttons img').css('display', 'flex')
+
