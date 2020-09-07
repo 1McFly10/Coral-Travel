@@ -270,6 +270,7 @@ input{
 
 .title-footer{
     padding-top: 270px;
+    padding-left: 20px;
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -550,9 +551,6 @@ input[type="email"]::placeholder { color: white; }
         display: none;
     }
 
-    header {
-        padding: 10px;
-    }
 
     .container-bread-crumbs {
         padding: 10px;

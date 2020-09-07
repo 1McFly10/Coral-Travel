@@ -1,0 +1,180 @@
+
+.bread-crumbs{
+    width: 100%;
+    background: #E5E5E5;
+}
+
+.container-bread-crumbs{
+    padding-top: 14px;
+    padding-bottom: 13px;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: start;
+}
+
+.describe-page{
+    font-family: Montserrat;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #535353;
+    margin-right: 2px;
+}
+
+.describe-expage{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-left: 7px;
+}
+
+.container-name-page{
+    max-width: 1200px;
+    margin: 0px auto;
+    z-index: 3;
+    position: relative;
+}
+
+.name-page{
+    width: 100%;
+    height: 40vh;
+    background-image: url("../images/page-about-company/Mask Group.png");
+    background-repeat: no-repeat ;
+    position: relative;
+}
+
+.article-name{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 3;
+    line-height: 40vh;
+}
+
+
+.name-page:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 1;
+}
+
+
+/*--------BLOG----------*/
+
+.news{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 78px;
+}
+
+.gallery_items{
+    display: grid;
+    gap: 10px;
+    position: relative;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) );
+}
+
+.gallery_item{
+    position: relative;
+    padding: 0px 0px 85% 0px;
+}
+
+.gallery_item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.gallery_items .gallery_item p {
+    position: absolute;
+    bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.gallery_items .gallery_item:nth-child(3){
+    grid-row: span 2;
+}
+
+.gallery_items .gallery_item:nth-child(4){
+    grid-row: span 2;
+}
+
+
+.gallery_items .gallery_item:nth-child(9){
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+
+@media (max-width: 1200px) {
+    .gallery_items{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) );
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .container-bread-crumbs {
+        padding: 10px;
+    }
+
+    .article-name {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .gallery_items .gallery_item:nth-child(9){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .article-name {
+        font-size: 40px;
+    }
+
+    .news {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 375px){
+
+    .gallery_items {
+
+    }
+
+}
+
+
+@media (max-width: 320px){
+    .article-name {
+        font-size: 35px;
+    }
+    .gallery_items .gallery_item:nth-child(9){
+        width: 310px;
+    }
+
+}

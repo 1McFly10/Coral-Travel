@@ -66,6 +66,7 @@ header option{
 
 .bread-crumbs{
     width: 100%;
+    background: #E5E5E5;
 }
 
 .container-bread-crumbs{
@@ -95,9 +96,6 @@ header option{
     margin-left: 7px;
 }
 
-.bread-crumbs{
-    background: #E5E5E5;
-}
 
 .container-name-page{
     max-width: 1200px;
@@ -483,9 +481,6 @@ input[type="email"]::placeholder { color: white; }
         display: none;
     }
 
-    header {
-        padding: 10px;
-    }
 
     .container-bread-crumbs {
         padding: 10px;
