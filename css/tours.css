@@ -69,7 +69,7 @@ header option{
     height: 50px;
     align-items: center;
     font-size: 1.2rem;
-    font-family: Arial;
+    font-family: Montserrat;
 }
 .tours-wrapper{
     width: 100%;
@@ -156,7 +156,7 @@ header option{
     align-items: flex-end;
     justify-content: center;
     cursor: pointer;
-
+    text-align: center;
 }
 .services-slider-first-slide{
     width: 370px;
@@ -477,9 +477,7 @@ header option{
     .tourist-services{
         width: 425px;
     }
-    .tourist-services-slider{
-        width: 425px;
-    }
+
     .tour-countries{
         width: 425px;
     }
@@ -492,29 +490,46 @@ header option{
     .tour-countries-right-plane{
         display: none;
     }
+    .tourist-services-slider{
+        width: 425px;
+        /*width: 1600px;*/
+        /*overflow: hidden;*/
+    }
+    .tourist-services-slider div{
+        /*display: none;*/
+        height: 240px;
+    }
+    .tourist-services-slider .slick-slide{
+        display: flex;
+    }
+
     .services-slider-first-slide {
-        width: 115px;
-        height: 90px;
+        /*width: 315px;*/
+        /*height: 90px;*/
     }
     .services-slider-second-slide {
-        height: 90px;
-        width: 115px;
+
+        /*height: 90px;*/
+        /*width: 315px;*/
     }
     .services-slider-third-slide {
-        height: 90px;
-        width: 115px;
+        /*height: 90px;*/
+        /*width: 315px;*/
     }
     .services-slider-fourth-slide {
-        height: 90px;
-        width: 115px;
+        /*height: 90px;*/
+        /*width: 315px;*/
     }
     .services-slider-fifth-slide {
-        height: 90px;
-        width: 115px;
+        /*height: 90px;*/
+        /*width: 315px;*/
     }
     .tourist-services-slider p {
         padding-bottom: 10px;
         font-size: .8rem;
+    }
+    .services-slider-blue-underline{
+        display: none;
     }
     .countries-list{
         width: 100%;

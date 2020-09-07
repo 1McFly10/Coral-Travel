@@ -153,7 +153,7 @@ header option{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 90px;
+        height: 100px;
     }
     .mobile-menu-social{
         width: 40%;
